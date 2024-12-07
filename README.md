@@ -27,7 +27,7 @@ Feature extraction using traditional frequency-based methods will consider the B
 
 Representation learning, also known as feature learning, simplifies raw input data by extracting meaningful and informative feature representations that are low-dimensional and generalisable. Techniques will include Dimensionality Reduction (PCA, SVD, TruncatedSVD, t-SNE, and UMAP), Word Embeddings (Word2Vec and GloVe) and Text Embeddings (BERT-based Sentence Transformers and GPT-style OpenAI embedding models).
 
-![Visualisation of relationships for "covid-19", "pandemic", "drug", "disease" and "remdesivir"](https://github.com/alisonmitchell/Biomedical-Knowledge-Graph/blob/main/02_Exploratory_Data_Analysis/images/glove_network_explorer.png?raw=true)
+![Visualisation of relationships for "covid-19", "pandemic", "drug", "disease" and "remdesivir"](https://github.com/alisonmitchell/Biomedical-Knowledge-Graph/blob/main/images/glove_network_explorer_titled.png?raw=true)
 
 Modelling will utilise the general-purpose, scalable K-means algorithm for the downstream task of clustering, a practical application for embeddings after dimensionality reduction. Topic modelling, or abstracting topics from a collection of documents, will include techniques such as Latent Dirichlet Allocation (LDA), and [BERTopic](https://github.com/MaartenGr/BERTopic), after which topic representations will be fine-tuned by prompting an LLM to create short topic labels.
 
@@ -143,6 +143,8 @@ Here, [NetworkX](https://github.com/networkx/networkx) and [Pyvis](https://githu
 * [Hugging Face](https://huggingface.co/docs/transformers/en/index)
 
 * [LlamaIndex](https://github.com/run-llama/llama_index)
+
+* [LangChain](https://github.com/langchain-ai)
 
 * [MELODI Presto](https://melodi-presto.mrcieu.ac.uk/)
 
