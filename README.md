@@ -63,6 +63,8 @@ Named Entity Recognition (NER) models are trained to identify and classify speci
 
 Relation Extraction is the final step in the information extraction pipeline and is the process of extracting relationships between entities in the text. [REBEL](https://github.com/Babelscape/rebel) is a seq2seq model which performs end-to-end entity and relation extraction for more than 200 different relation types using a Hugging Face pipeline, as a spaCy component, or directly with the transformers library and generate() function. REBEL will also be used to extract triplets for indexing, storage and retrieval by [LlamaIndex](https://github.com/run-llama/llama_index) along with a pre-trained Sentence Transformers embedding model, and an LLM to respond to prompts and queries, and for writing natural language responses. During queries, keywords are extracted from the query text and used to find triplets containing the same subject, and their associated text chunks.
 
+The use of LLMs for knowledge graph construction, and the leveraging of knowledge graphs to enhance LLMs, will be demonstrated using [LangChain](https://github.com/langchain-ai), an open-source orchestration framework for developing context-aware, reasoning applications powered by language models.
+
 
 [Groq](https://console.groq.com/playground)'s fast AI inference API for supported LLMs, with few-shot prompting to extract triples, will demonstrate the generalisation capabilities of LLMs over domain and task-specific NLP models. Finally, [Unsloth](https://github.com/unslothai/unsloth) will be used to simplify and accelerate the supervised fine-tuning process for a supported LLM using a gold standard annotated dataset with labelled training examples and expected outputs.
 
